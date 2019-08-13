@@ -9,6 +9,11 @@
     "react-scripts": "^1.0.17",
     "prop-types": "latest"
   },
+  "proxy": {
+    "/api": {
+      "target": "http://localhost:8080"
+    }
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
