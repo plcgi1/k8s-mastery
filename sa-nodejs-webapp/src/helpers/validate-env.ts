@@ -4,7 +4,7 @@ import {
 
 export default function validateEnv() {
     cleanEnv(process.env, {
-        SA_LOGIC_API_URL: str(),
+        ANALYSE_URL: str(),
         PORT: str()
     });
 }
